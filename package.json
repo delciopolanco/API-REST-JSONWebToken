@@ -1,0 +1,29 @@
+{
+  "name": "apirestathenticated",
+  "version": "1.0.0",
+  "description": "api rest using authectication with jsonWebToken",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server"
+  },
+  "keywords": [
+    "#nodejs",
+    "#jsonwebtoken",
+    "#mongodb"
+  ],
+  "author": "Delcio Polanco",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "crypto": "^1.0.1",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.19.1",
+    "mongoose": "^4.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
